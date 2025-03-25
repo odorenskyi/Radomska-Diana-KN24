@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1742466436 source:c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\radomska-task\main.cpp
-	<iostream>
-	<iomanip>
-	<windows.h>
-	"ModulesRadomska.h"
-
-1742460986 c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\modulesradomska.h
-

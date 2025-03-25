@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1742462136 source:c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\testdriver\main.cpp
-	<iostream>
-	<windows.h>
-	"ModulesRadomska.h"
-
-1742460986 c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\modulesradomska.h
-
