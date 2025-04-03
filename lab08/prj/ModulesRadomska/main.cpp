@@ -4,6 +4,10 @@
 
 using namespace std;
 
+void developer_information() {
+    std::cout << "Радомська Діана ©, Усі права захищені." << std::endl;
+}
+
 double s_calculation(double x, double y, double z) {
     if (x - y <= 0) {
         return NAN; // Повертаємо NaN, якщо логарифм невизначений
@@ -16,14 +20,7 @@ double s_calculation(double x, double y, double z) {
     return (numerator / denominator) + sqrt_term;
 }
 
-void deposit_calculation() {
-    double deposit;
-    int months;
-
-    cout << "Введіть суму депозиту: ";
-    cin >> deposit;
-    cout << "Введіть кількість місяців (6 або 12): ";
-    cin >> months;
+void deposit_calculation(double deposit, int months) {
 
     if (months != 6 && months != 12) {
         cout << "Некоректний термін депозиту!\n";
@@ -38,11 +35,7 @@ void deposit_calculation() {
 }
 
 // Функція для задачі 9.2: визначення максимального балу Бофорта
-void g_calculation() {
-    double max_speed;
-
-    cout << "Введіть максимальну швидкість вітру (м/с): ";
-    cin >> max_speed;
+void g_calculation(double max_speed) {
 
     // Масиви для визначення балу Бофорта та опису дії вітру
     double thresholds[] = {0.3, 1.5, 9.4, 5.4, 7.9, 10.7, 13.8, 17.1, 20.7, 24.4, 28.4, 32.6, 100.0};
@@ -77,11 +70,7 @@ void g_calculation() {
 }
 
 // Функція для задачі 9.3: підрахунок двійкових 0 або 1
-void f_calculation() {
-    unsigned int N;
-
-    cout << "Введіть натуральне число N (0 - 9008000): ";
-    cin >> N;
+void f_calculation(unsigned int N) {
 
     if (N > 9008000) {
         cout << "Число виходить за дозволений діапазон!\n";

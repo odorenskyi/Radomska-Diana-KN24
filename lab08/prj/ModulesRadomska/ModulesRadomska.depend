@@ -1,4 +1,6 @@
 # depslib dependency file v1.0
-1742462940 source:c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\modulesradomska\main.cpp
+1743708721 source:c:\users\diana\desktop\radomska-diana-kn24\lab08\prj\modulesradomska\main.cpp
 	<cmath>
+	<iostream>
+	<bitset>
 
